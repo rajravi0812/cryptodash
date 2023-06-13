@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cryptodash/static/css/main.ddde0187.css",
+    "main.js": "/cryptodash/static/js/main.9add05be.js",
+    "static/js/787.4f145285.chunk.js": "/cryptodash/static/js/787.4f145285.chunk.js",
+    "index.html": "/cryptodash/index.html",
+    "main.ddde0187.css.map": "/cryptodash/static/css/main.ddde0187.css.map",
+    "main.9add05be.js.map": "/cryptodash/static/js/main.9add05be.js.map",
+    "787.4f145285.chunk.js.map": "/cryptodash/static/js/787.4f145285.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ddde0187.css",
+    "static/js/main.9add05be.js"
+  ]
+}
