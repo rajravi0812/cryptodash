@@ -31,7 +31,7 @@ export default function Charts(){
 
             </Pie>
             
-            <Legend iconType="radius" iconSize={10}width={100} height={100} layout="vertical" verticalAlign="middle" align="right"></Legend>
+            <Legend margin={{left:50}} iconType="radius" iconSize={10}width={100} height={100} layout="vertical" verticalAlign="middle" align="right"></Legend>
             
             
         </PieChart>

@@ -2,7 +2,6 @@
   "name": "cryptodash",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://rajravi0812.github.io/cryptodash",
   "dependencies": {
     "@mui/material": "^5.12.3",
     "@testing-library/jest-dom": "^5.16.5",
@@ -16,11 +15,15 @@
     "react-apexcharts": "^1.4.0",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.2.0",
-    "react-redux": "^8.0.5",
+    "react-redux": "^8.1.1",
     "react-router-dom": "^6.11.1",
     "react-scripts": "5.0.1",
     "readux": "^1.0.0",
     "recharts": "^2.5.0",
+    "redux": "^4.2.1",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.4.2",
+    "save-dev": "^0.0.1-security",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -28,7 +31,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
@@ -48,5 +51,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
   }
 }

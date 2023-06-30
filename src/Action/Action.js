@@ -64,3 +64,29 @@ export const cryptoSwitch = (data)=>{
         payload:data,
     }
 }
+
+export const setLoading = (val)=>{
+    return {
+        type:'loading',
+        payload:val,
+    }
+}
+export const setSuccess = (val)=>{
+    return {
+        type:'success',
+        payload:val,
+    }
+}
+export const setError = (val)=>{
+    return {
+        type:'error',
+        payload:val,
+    }
+}
+
+export const convertCurrency = (val)=>{
+    return {
+        type:'currency',
+        payload:val,
+    }
+}

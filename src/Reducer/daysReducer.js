@@ -1,4 +1,4 @@
-const dayone = "1";
+const dayone = "30";
 const dOneReducer = (state=dayone,action)=>{
     switch (action.type){
         case "oneD":
